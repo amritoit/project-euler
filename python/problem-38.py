@@ -1,5 +1,6 @@
 def compute():
     max = 0
+    # why base is in ragne 1, 10000, because more than 10000 base can not make 9 digit but more.
     for base in range(1,10000):
         concat = ''
         for i in range(1,10):
